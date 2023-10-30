@@ -86,7 +86,7 @@ int main (){
     tail = node;
 
         printForward(head);
-    //printBackward(tail);
+    printBackward(tail);
 
     cin.get();
 }
