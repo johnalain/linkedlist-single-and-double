@@ -44,7 +44,7 @@ void printForward(Node*head){
             traverser = traverser->next;
         }
 }
-        void prinBackward(Node*tail){
+        void printBackward(Node*tail){
         Node* traverser=tail;
         while (traverser != nullptr){
             cout<< traverser->value <<endl;
@@ -85,5 +85,8 @@ int main (){
     tail->next = node;
     tail = node;
 
-    printForward(head);
+    // printForward(head);
+    printBackward(tail);
+
+    cin.get();
 }
